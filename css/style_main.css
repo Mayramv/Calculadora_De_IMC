@@ -172,7 +172,7 @@
 
 @media screen and (max-width: 580px) {
     main,.calculadora_imc,.caixa1,.caixa2,.valores_resultado,.legenda,.peso,.altura,.botao_calcular,.main{
-        width: 97%;
+        width: 99%;
         
           display: flex;
           flex-direction: row;
@@ -181,7 +181,7 @@
          }
          
         .legenda,.lista_referencia{
-            width: 97%;
+            width: 99%;
             padding-top: 0.01em;
             padding-bottom: 0.1em;
             justify-content: center;
