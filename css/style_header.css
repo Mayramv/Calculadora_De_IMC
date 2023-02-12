@@ -28,7 +28,7 @@ h1{
     padding-bottom: 4em;
 }
 @media screen and (max-width: 580px){header{
-    width: 98%;
+    width: 97%;
     
       display: flex;
       flex-direction: column;
