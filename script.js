@@ -12,16 +12,18 @@
         if (peso.value !=="" && altura.value !==""){
             
             
-            const imc = peso.value/(altura.value* altura.value).toFixed(2);
-            resultado.innerHTML= imc;
+            const imc = peso.value/(altura.value* altura.value);
+            resultado.innerHTML= imc.toFixed(2);
         } else{
-            const aviso = "Preencha todos os campos"
-            resultado.innerHTML= aviso
+            alert("Preencha todos os campos")
+            
 
         }
         console.log(peso.value);
 
     }
     
-    calcular.addEventListener('click',console.log("foi"))
+    calcular.addEventListener('click', () => {
+        calcularIMC();
+    })
     
