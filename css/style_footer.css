@@ -8,6 +8,7 @@
 }
 .attribution{
     
+    
     background-color: white;
     font-size: 24px;
     color: rgb(255, 0, 128);
@@ -16,12 +17,13 @@
 }
 @media screen and (max-width: 580px){footer{
     width: 98%;
-   height: auto;}
-    .attribution,.footer{
-      width: 98%;
-      padding-top: 0.01em;
-      padding-bottom: 0.1em;
-      justify-content: center;
+    
       display: flex;
-       flex-direction: column;}
+      flex-direction: column;
+      justify-content: center;
+     padding-top:16em;
+     
+    }
+      
+    
   }

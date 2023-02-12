@@ -183,13 +183,14 @@
         .legenda,.lista_referencia{
             width: 99%;
             padding-top: 0.01em;
-            padding-bottom: 0.1em;
+           
             justify-content: center;
             display: flex;
              flex-direction: column;
           }
        .lista_referencia{
         margin-top: 0.1em;
+        margin-bottom: 0;
        }
        
   }
