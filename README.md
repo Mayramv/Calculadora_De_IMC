@@ -7,11 +7,11 @@
  
  Esse um projeto de uma calculadora de IMC, é meu primeiro projeto proprio usando JS.
  
-##  Conteúdo do projeto
+## Conteúdo do projeto
 
 ### CSS
 ### HTML
-### JS
+###  JAVASCRIPT
 
 
 
