@@ -169,3 +169,27 @@
 #at::before{
     content: "❌ ";
 }
+
+@media screen and (max-width: 580px) {
+    main,.calculadora_imc,.caixa1,.caixa2,.valores_resultado,.legenda,.peso,.altura,.botao_calcular,.main{
+        width: 95%;
+        
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          
+         }
+         
+        .legenda,.lista_referencia{
+            width: 95%;
+            padding-top: 0.01em;
+            padding-bottom: 0.1em;
+            justify-content: center;
+            display: flex;
+             flex-direction: column;
+          }
+       .lista_referencia{
+        margin-top: 0.1em;
+       }
+       
+  }

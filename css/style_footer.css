@@ -15,10 +15,10 @@
     -webkit-text-stroke-color: #070707;
 }
 @media screen and (max-width: 580px){footer{
-    width: 100%;
+    width: 98%;
    height: auto;}
     .attribution,.footer{
-      width: 100%;
+      width: 98%;
       padding-top: 0.01em;
       padding-bottom: 0.1em;
       justify-content: center;
