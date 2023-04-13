@@ -1,6 +1,7 @@
 # Calculadora de  IMC
 
-![calculadora_imc](https://user-images.githubusercontent.com/106702919/218328684-12cb7238-7167-4ad6-b0c6-3141c2f7b92a.png)
+![POST](https://user-images.githubusercontent.com/106702919/223783648-4dc45eaf-fe55-4444-a07a-24151919dab6.png)
+
 
  
  ##  Descrição do Projeto
