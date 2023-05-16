@@ -1,95 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ToDo Lista</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <div class="todo-container">
-      <header>
-        <h1>ToDo Lista</h1>
-      </header>
-      <form action="" id="todo-form">
-        <p>Adicione a sua tarefa:</p>
-        <div class="form-control">
-          <input
-            type="text"
-            id="todo-input"
-            placeholder="Oque voçê vai fazer?"
-          />
-          <button type="submit"><i class="fa-solid fa-circle-plus"></i></button>
-        </div>
-      </form>
-      <form id="edit-form" class="hide">
-        <p>Edite a sua tarefa:</p>
-        <div class="form-control">
-          <input type="text" id="edit-input" />
-          <button type="submit">
-            <i class="fa-solid fa-square-check"></i>
-          </button>
-        </div>
-        <button id="cancel-edit-btn">Cancelar</button>
-      </form>
-      <div id="toolbar">
-        <div id="search">
-          <h4>Pesquisar:</h4>
-          <form>
-            <input type="text" id="search-input" placeholder="Buscar" />
-            <button id="arase-button">
-              <i class="fa-solid fa-delete-left"></i>
-            </button>
-          </form>
-        </div>
-        <div id="filter">
-          <h4>Filtrar:</h4>
-          <select id="filter-select">
-            <option value="all">Todos</option>
-            <option value="done">Feito</option>
-            <option value="todo">A fazer</option>
-          </select>
-        </div>
-      </div>
-      <div id="todo-list">
-        <div class="todo done">
-          <h3>Estou realizando uma tarefa</h3>
-          <button class="finish-todo">
-            <i class="fa-solid fa-square-check"></i>
-          </button>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="css/style_header.css">
+</head>
+<body class="body">
+    <header class="header">
+        <h1> Calculadora IMC</h1>
+    </header>
+    <main class="main">
+        <div class="calculadora_imc">
+            <div class="caixa1">
+             
+             <div class="peso">   <label for="">Seu peso</label>
+              <input type="number" id="peso" class="input-peso" required placeholder="Digite seu peso" >
+            </div>
+            <div class="altura">
+                <label for="">Sua altura</label>
+                
+                <input type="number" id="altura" class="input-altura" required placeholder="Digite sua altura">
+            </div>
+              <div class="botao_calcular">
+              <input type="button" value="Calcular" id="calcular" class="botao" data-botao>
+             </div>
+               
+              
+           </div>
+           <div class="caixa2">
+            <div  class ="resultado" >
+               <h3 class="resultado" id="resultado">Resultado IMC:</h3>
+            </div >
+            <div class="reset">
+              <input type="button" value="Calcular novamente" class="button-reset" onclick="window.location.reload()">
+            </div>
+        
+    </main>
+    
+    <footer>
+      <a
+        href="https://www.linkedin.com/in/mayra-malaquias-28274a14a/"
+        target="_blank"
+        class="attribution icon"
+        ><img src="./imagens/linkedin (2).png" alt=""
+      /></a>
+      <p class="attribution code">Code by: Mayra Malaquias</p>
 
-          <button class="edit-todo">
-            <i class="fa-solid fa-square-pen"></i>
-          </button>
-
-          <button class="finish-remove">
-            <i class="fa-solid fa-square-xmark"></i>
-          </button>
-        </div>
-        <div class="todo done">
-          <h3>Estudando JavaScript</h3>
-          <button class="finish-todo">
-            <i class="fa-solid fa-square-check"></i>
-          </button>
-
-          <button class="edit-todo">
-            <i class="fa-solid fa-square-pen"></i>
-          </button>
-
-          <button class="finish-remove">
-            <i class="fa-solid fa-square-xmark"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-    <script src="js/script.js"></script>
-  </body>
+      <a href="https://github.com/Mayramv" target="_blank" class="attribution icon">
+        <img src="./imagens/github (2).png" alt=""
+      /></a>
+    </footer>
+    <script src="script.js"></script> 
+</body>
 </html>
